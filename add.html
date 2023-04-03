@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>
+            Test your Maths
+        </title>
+        <link rel="stylesheet" href="add_style.css">
+        <script src="add_main.js"></script>
+        <!-- bootstrap codes -->
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+         <!-- bootstrap codes end  -->
+    </head>
+    <body id="body_bg">
+        <center>
+        <ul id="main_ul">
+            <li class="list_item" onclick="Audio_play()"><a href="index.html" class="ul_links">Home</a></li>
+            <li class="list_item" onclick="Audio_play()"><a href="#Addition" class="ul_links">Addition</a></li>
+            <li class="list_item" onclick="Audio_play()"><a href="sub.html" class="ul_links">Subtraction</a></li>
+            <li class="list_item" onclick="Audio_play()"><a href="multi.html" class="ul_links">Multiplication</a></li>
+            <li class="list_item" onclick="Audio_play()"><a href="#Setting_section" class="ul_links">Setting</a></li>
+            
+        </ul>
+    </center>
+    <section id="Main_Page">
+        <hr>
+        <p class="heading">Test Your Math</p>
+        <div id="div_age_cat_btn">Please choose one of these age categories</div>
+        <span>
+        <button class="age_btn_category" id="5_to_8_btn" onclick="Age_5_8()">5 To 8 years</button>
+    </span>
+    <span>
+        <button class="age_btn_category" id="9_to_12_btn" onclick="Age_9_12()">9 To 12 years</button>
+    </span>
+    <span>
+        <button class="age_btn_category" id="13_to_16_btn" onclick="Age_13_16()">13 To 16 years</button>
+    </span>
+</section>
+        <section id="Addition" class="Main_section">
+            <hr>
+            <p class="heading">Addition Quiz</p>
+            <div id="time_container">
+                <span id="Minute" class="timer_num">00</span>
+                <span> min </span>  
+                <span id="Second" class="timer_num">00</span>  
+                <span>sec</span>
+              </div>
+            <div class="Score_set" id="score_board_add">Score : 0</div>
+            <div id="Question_add">
+                
+            </div>
+            <div>
+            <input type="number" id="add_input" class="input_style" placeholder="Enter The Answer Here" onfocus="this.value=''">
+        </div>
+            <span>
+            <button id="Start" onclick="START()" class="btn_addition">Start Quiz</button>
+        </span>
+        <span>
+            <button id="Submit" onclick="SUBMIT()" class="btn_addition">Submit</button>
+        </span>
+        <div>
+        <label id="result_add"></label>
+    </div>
+        </section>
+        <hr>
+        <section id="Setting_section" class="bg_sett">
+            <h2 id="setting_head">Setting</h2>
+            <button id="Mute" onclick="Mute()">Mute Audio</button>
+        </section>
+        <section>
+            <p id="feedback" class="bg_sett">Work in Progress<br>
+            Any feedbacks please inform me on <br>
+            "shubhamcodes2009@gmail.com"
+            </p>
+        </section>
+    </body>
+</html>    
+                 
+    

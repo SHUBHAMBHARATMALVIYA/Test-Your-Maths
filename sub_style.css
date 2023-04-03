@@ -1,0 +1,168 @@
+#body_bg {
+text-align: center;
+background-image: url("Background.jpeg");
+}
+#time_container {
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px;
+    border-style: solid;
+    margin-left:36cm;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+  }
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: lightblue;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.timer_num {
+    margin-left: 5px;
+    margin-right: 2px;
+}
+#Question_add {
+    font-size: 25px;
+    margin-top: 5px;
+}
+.btn_addition {
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 6px;
+
+}
+.btn_addition:hover {
+    height: 39px;
+    width: 130px;
+    font-size: 26px;
+}
+#Start {
+    margin-right: 100px;
+}
+.input_style {
+    margin-bottom: 30px;
+    width: 10cm;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 2px;
+    border-style: solid;
+}
+#main_ul {
+    position: fixed;
+    background-color: darkblue;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.ul_links {
+    text-decoration: none;
+    text-shadow: 2px 2px cyan;
+}
+.list_item {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.list_item:hover {
+    font-size: 35px;
+    text-decoration: underline;
+}
+.age_btn_category {
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    text-align: center;
+    margin: 40px;
+    border-radius: 6px;
+}
+.age_btn_category:hover {
+    height: 35px;
+    width: 175px;
+    font-size: 24px ;
+}
+#div_age_cat_btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-bottom: 100px;
+    background-color: lightblue;
+    margin-left:400px ;
+    margin-right: 400px;
+}
+#result_add {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 30px;
+    border: 3px;
+    border-style: solid;  
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: lightblue;
+}
+#Main_Page {
+    height: 500px;
+}
+.Main_section {
+    height: 800px;
+}
+.Score_set {
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px;
+    border-style: solid;
+    margin-left:37cm;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+#Mute {
+    height: 30px;
+    width: 140px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 6px;  
+}
+#Mute:hover {
+    height: 40px;
+    width: 180px;
+    font-size: 26px;
+}
+#feedback {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#setting_head {
+    font-family: 'Times New Roman', Times, serif;
+}
+#Question_add {
+    background-color: lightblue;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-bottom: 20px;
+}
+.bg_sett {
+    background-color: lightblue;
+    margin-left: 550px;
+    margin-right: 550px;
+}
